@@ -1,0 +1,10 @@
+<h1>Please Input Your File</h1>
+<%= form_tag({ action: :upload }, multipart: true) do %>
+  <p><%= file_field_tag 'input_file' %></p>
+  <p><%= submit_tag('Test') %></p>
+<% end %>
+<% if @stats %>
+	<% @stats.each do | room, stat | %>
+		<p> Room <%= room %>, <%= stat['avg'] %> minutes average, <%= stat['user_count'] %> visitor(s) total</p>
+	<% end %>
+<% end %>
