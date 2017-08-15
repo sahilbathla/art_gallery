@@ -2,6 +2,7 @@
 
 Get Average Visitors Per Room In Art Gallery. Upload the file with following sample test data :-
 
+```
 10
 1 0 I 10
 1 0 O 20
@@ -13,10 +14,12 @@ Get Average Visitors Per Room In Art Gallery. Upload the file with following sam
 2 0 O 90
 1 0 I 290
 1 0 O 315
+```
 
 Here 10 represents number of inputs
 
 1 0 I 10 - Represent User 1 Going inside Room 1 at timestamp 10
+
 1 0 O 20 - Represent User 2 Going outside Room 1 at timestamp 20
 
 # Setup
