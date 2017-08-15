@@ -32,6 +32,10 @@ Here 10 represents number of inputs
 
 4) rails s
 
+# Demo
+
+https://artgalleryxeb.herokuapp.com/
+
 # TestCases
 
 Pending
